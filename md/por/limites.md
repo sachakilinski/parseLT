@@ -1,0 +1,13 @@
+##Limites/Fraquezas
+- limite de req/s.<!-- .element: class="fragment" data-fragment-index="1" -->
+- "count" aproximado para DB´s grandes.<!-- .element: class="fragment" data-fragment-index="2" -->
+- timeout baixo para funções e jobs.<!-- .element: class="fragment" data-fragment-index="3" -->
+- limite de jobs simultâneos (threads).<!-- .element: class="fragment" data-fragment-index="4" -->
+- não há DB lock.<!-- .element: class="fragment" data-fragment-index="5" -->
+- poucas operações atômicas.<!-- .element: class="fragment" data-fragment-index="6" -->
+- limite de logs.<!-- .element: class="fragment" data-fragment-index="7" -->
+- logs às vezes são omitidos.<!-- .element: class="fragment" data-fragment-index="8" -->
+- limite de resultados de busca.<!-- .element: class="fragment" data-fragment-index="9" -->
+- push notifications delay.<!-- .element: class="fragment" data-fragment-index="10" -->
+- não há busca case-insensitive.<!-- .element: class="fragment" data-fragment-index="11" -->
+- ás vezes o Parse fica down.<!-- .element: class="fragment" data-fragment-index="12" -->
